@@ -66,74 +66,7 @@ function weatehrApi(city) {
            
         });
 };
- weatherApi(city);
-
-
-
-
-
-
-//    function weatehrApi(City){
-//        const apiKey = '1a301874a116ded8ea06640d46bfd1f4';
-//     const unit = 'metric';
-//     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&q=${query}&units=${unit}`;
-//      fetch(url)
-//         .then(res => res.json())
-//         .then(data => function(){
-//             document.getElementById("displayCity").innerText= data.name;
-//             document.getElementById('temperature').innerText = data.main.temp;
-//             const weatherIcon = data.weather[0].icon;
-//             const imageUrl = `https://openweathermap.org/img/wn/${weatherIcon}@2x.png`;
-//             document.getElementById('imageUrl').src = imageUrl;
-//             document.getElementsByClassName('lead').innerText =data.weather[0].main.value;
-//         });
-//    };
-//   weatehrApi(city);
-
-
-
-    // const Btn =  document.getElementById('searchBtn');
-    // Btn.addEventListener('click',function (){
-    //     const city= document.getElementById('inputCity').innerText;
-    //     // const query = city_name;
-    //     // const apiKey ='ef2db38e5f237a7b3f4e9281bc3438f5';
-    //     // const url =`api.openweathermap.org/data/2.5/weather?q=${query}&appid=${apiKey}`;
-    //     // fetch('url')
-
-    //     const query = city;
-    // const apiKey = '1a301874a116ded8ea06640d46bfd1f4';
-    // const unit = 'metric';
-    // const apiUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&q=${query}&units=${unit}`;
-    // fetch(apiUrl)
-
-    //     .then(res => res.json())
-    //     .then(data => function(){
-    //         document.getElementById("displayCity").innerText= data.name;
-    //         document.getElementById('temperature').innerText = data.main.temp;
-    //         document.getElementsByClassName('lead').innerText =data.weather[0].main.value;
-    //     })
-   
-    // })
-
-
-// const Btn = document.getElementById('searchBtn');
-// Btn.addEventListener('click',search())
-
-// function search(){
-//     const city= document.getElementById('inputCity').innerText;
-//          const query = city;
-//     const apiKey = '1a301874a116ded8ea06640d46bfd1f4';
-//     const unit = 'metric';
-//     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&q=${query}&units=${metric}`;
-//     fetch(apiUrl)
-
-//         .then(res => res.json())
-//         .then(data => function(){
-//             document.getElementById("displayCity").innerText= data.name;
-//             document.getElementById('temperature').innerText = data.main.temp;
-//             document.getElementsByClassName('lead').innerText =data.weather[0].main.value;
-//         })
-// }
+    weatherApi(city);
 
 
 
